@@ -59,6 +59,12 @@ style: |
     grid-template-columns: 1fr 1fr;
     gap: 24px;
   }
+  .columns-narrow-left {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 24px;
+    align-items: center;
+  }
   .small {
     font-size: 20px;
   }
@@ -89,6 +95,22 @@ Claudeの視界を制御して、最大限の成果を引き出す
 3. **具体的にどうすればいいか** — 明日から使えるコマンドと運用パターン
 
 すべての情報の出典は **Claude Code 公式ドキュメント**（code.claude.com）のみ
+
+---
+
+## Claude Code の基本要素
+
+| 要素 | 説明 |
+|------|------|
+| **Claude Code** | ターミナルで動く AI コーディングエージェント |
+| **セッション** | 保存・再開できる対話の単位。`--resume` で過去のセッションに戻れる |
+| **コンテキストウィンドウ** | Claude が一度に見えるテキストの総量。上限がある |
+| **トークン** | コンテキストの容量の単位。文字数とは異なる |
+| **スラッシュコマンド** | `/compact`, `/clear` など `claude` 内で使える操作コマンド |
+
+今日の話は主に**セッション内のコンテキスト**をどう管理するかがテーマ
+
+<span class="source">※ 以上は資料内で使う用語の整理</span>
 
 ---
 
@@ -545,7 +567,7 @@ claude -w bugfix-123              # 短縮形
 
 ## 宣伝: まもなく発走
 
-<div class="columns">
+<div class="columns-narrow-left">
 <div>
 
 ![w:280](images/mamonaku-screenshot.webp)
