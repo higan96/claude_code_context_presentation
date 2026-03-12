@@ -543,6 +543,33 @@ claude -w bugfix-123              # 短縮形
 
 ---
 
+## 宣伝: まもなく発走
+
+<div class="columns">
+<div>
+
+![w:280](images/mamonaku-screenshot.webp)
+
+</div>
+<div>
+
+![w:100](images/mamonaku-icon.webp)
+
+競馬の発走時刻を**絶対に逃さない**通知アプリ
+
+- サイレントモードでも鳴るアラーム
+- JRA 全レース対応・事前通知
+- 重賞 / 特別競走の一括選択
+
+**Claude Code でコードを手書きせずに開発しました**
+
+App Store で「まもなく発走」で検索！
+
+</div>
+</div>
+
+---
+
 ## 参考リンク
 
 <div class="small">
